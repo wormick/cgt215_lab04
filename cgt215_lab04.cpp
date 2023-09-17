@@ -71,7 +71,7 @@ void geometric()
 	cin >> r;
 
 	for (int i = 1; i <= n; i++) {
-		cout << " " << a;
+
 		a = a * r;
 		cout << " " << a;
 	}
