@@ -61,19 +61,20 @@ void arithmetic() {
 }
 void geometric()
 {
-	int a, r, n;
+	int n, d, a;
 
 	cout << "Enter the start number" << endl;
 	cin >> a;
 	cout << "Enter the number of times" << endl;
 	cin >> n;
 	cout << "Enter the Ratio" << endl;
-	cin >> r;
+	cin >> d;
 
 	for (int i = 1; i <= n; i++) {
 
-		a = a * r;
-		cout << " " << a;
+		//cout << " " << a;
+		a = a * d;
+		
 	}
 
 }
