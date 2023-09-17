@@ -63,11 +63,11 @@ void geometric()
 {
 	int a, r, n;
 
-	cout << "Enter the a" << endl;
+	cout << "Enter the start number" << endl;
 	cin >> a;
-	cout << "Enter the size" << endl;
+	cout << "Enter the number of times" << endl;
 	cin >> n;
-	cout << "Enter the R(ratio)" << endl;
+	cout << "Enter the Ratio" << endl;
 	cin >> r;
 
 	for (int i = 1; i <= n; i++) {
@@ -85,7 +85,7 @@ int main() {
 		cin >> choice;
 		// Quit if user chooses to exit (or any invalid choice)
 		if (choice > 3 || choice < 1) {
-			return 0;
+			cout << "maybe pick a actual number i can use next time" << endl;
 		}
 		else if (choice == 1) {
 			factorial();
