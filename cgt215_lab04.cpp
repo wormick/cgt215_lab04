@@ -62,6 +62,7 @@ void arithmetic() {
 void geometric()
 {
 	int n, d, a;
+	int b = 2;
 
 	cout << "Enter the start number" << endl;
 	cin >> a;
@@ -72,11 +73,12 @@ void geometric()
 
 	for (int i = 1; i <= n; i++) {
 
-		//cout << " " << a;
+		cout << " " << a;
 		a = a * d;
 		
 	}
-
+	int sum = a * ((1 - b) / (1 - d));
+	cout << " = " << sum;
 }
 int main() {
 	int choice;
