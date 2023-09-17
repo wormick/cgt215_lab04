@@ -71,14 +71,18 @@ void geometric()
 	cout << "Enter the Ratio" << endl;
 	cin >> d;
 
+	int sum = 0;
+
 	for (int i = 1; i <= n; i++) {
 
 		cout << " " << a;
-		a = a * d;
-		
+		sum += a;
+		a *= d;
+
+
 	}
-	int sum = a * ((1 - b) / (1 - d));
 	cout << " = " << sum;
+
 }
 int main() {
 	int choice;
