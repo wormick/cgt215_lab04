@@ -75,13 +75,18 @@ void geometric()
 
 	for (int i = 1; i <= n; i++) {
 
-		cout << " " << a;
+
+		if (i != n)
+			cout << a << " * ";
+
+		else
+			cout << a << " = ";
+
 		sum += a;
 		a *= d;
 
-
 	}
-	cout << " = " << sum;
+	cout << sum;
 
 }
 int main() {
