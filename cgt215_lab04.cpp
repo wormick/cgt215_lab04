@@ -77,7 +77,7 @@ void geometric()
 
 
 		if (i != n)
-			cout << a << " * ";
+			cout << a << " + ";
 
 		else
 			cout << a << " = ";
